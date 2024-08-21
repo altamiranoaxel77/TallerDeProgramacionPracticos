@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|e:\\facu\\lsi\\3er a\u00F1o\\taller de programacion 2\\practicos\\tallerdeprogramacionpracticos\\taller2trabajospracticos\\taller2trabajospracticos\\peque\u00F1o formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|solutionrelative:taller2trabajospracticos\\peque\u00F1o formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|e:\\facu\\lsi\\3er a\u00F1o\\taller de programacion 2\\practicos\\tallerdeprogramacionpracticos\\taller2trabajospracticos\\taller2trabajospracticos\\peque\u00F1o formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|solutionrelative:taller2trabajospracticos\\peque\u00F1o formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|e:\\facu\\lsi\\3er a\u00F1o\\taller de programacion 2\\practicos\\tallerdeprogramacionpracticos\\taller2trabajospracticos\\taller2trabajospracticos\\peque\u00F1o formulario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|solutionrelative:taller2trabajospracticos\\peque\u00F1o formulario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|e:\\facu\\lsi\\3er a\u00F1o\\taller de programacion 2\\practicos\\tallerdeprogramacionpracticos\\taller2trabajospracticos\\taller2trabajospracticos\\practico1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|solutionrelative:taller2trabajospracticos\\practico1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|e:\\facu\\lsi\\3er a\u00F1o\\taller de programacion 2\\practicos\\tallerdeprogramacionpracticos\\taller2trabajospracticos\\taller2trabajospracticos\\practico1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|solutionrelative:taller2trabajospracticos\\practico1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\taller2trabajospracticos\\peque\u00F1o formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A1320CB-41BD-4DC7-B767-597AE591DED8}|Taller2TrabajosPracticos\\Taller2TrabajosPracticos.csproj|solutionrelative:taller2trabajospracticos\\peque\u00F1o formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Practico1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\Taller2TrabajosPracticos\\Practico1.cs",
-              "RelativeDocumentMoniker": "Taller2TrabajosPracticos\\Practico1.cs",
-              "ToolTip": "E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\Taller2TrabajosPracticos\\Practico1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Taller2TrabajosPracticos\\Practico1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T13:52:55.528Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Peque\u00F1o Formulario.cs",
               "DocumentMoniker": "E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\Taller2TrabajosPracticos\\Peque\u00F1o Formulario.cs",
               "RelativeDocumentMoniker": "Taller2TrabajosPracticos\\Peque\u00F1o Formulario.cs",
               "ToolTip": "E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\Taller2TrabajosPracticos\\Peque\u00F1o Formulario.cs",
               "RelativeToolTip": "Taller2TrabajosPracticos\\Peque\u00F1o Formulario.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA0wCsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T15:45:59.944Z",
+              "WhenOpened": "2024-08-18T19:53:43.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Peque\u00F1o Formulario.Designer.cs",
-              "DocumentMoniker": "E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\Taller2TrabajosPracticos\\Peque\u00F1o Formulario.Designer.cs",
-              "RelativeDocumentMoniker": "Taller2TrabajosPracticos\\Peque\u00F1o Formulario.Designer.cs",
-              "ToolTip": "E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\Taller2TrabajosPracticos\\Peque\u00F1o Formulario.Designer.cs",
-              "RelativeToolTip": "Taller2TrabajosPracticos\\Peque\u00F1o Formulario.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T15:43:40.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Peque\u00F1o Formulario.cs [Dise\u00F1o]",
               "DocumentMoniker": "E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\Taller2TrabajosPracticos\\Peque\u00F1o Formulario.cs",
               "RelativeDocumentMoniker": "Taller2TrabajosPracticos\\Peque\u00F1o Formulario.cs",
               "ToolTip": "E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\Taller2TrabajosPracticos\\Peque\u00F1o Formulario.cs [Dise\u00F1o]",
               "RelativeToolTip": "Taller2TrabajosPracticos\\Peque\u00F1o Formulario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T15:43:32.613Z",
+              "WhenOpened": "2024-08-17T19:40:36.432Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Practico1.cs",
-              "DocumentMoniker": "E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\Taller2TrabajosPracticos\\Practico1.cs",
-              "RelativeDocumentMoniker": "Taller2TrabajosPracticos\\Practico1.cs",
-              "ToolTip": "E:\\facu\\LSI\\3er a\u00F1o\\Taller de Programacion 2\\Practicos\\TallerDeProgramacionPracticos\\Taller2TrabajosPracticos\\Taller2TrabajosPracticos\\Practico1.cs",
-              "RelativeToolTip": "Taller2TrabajosPracticos\\Practico1.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T14:13:42.123Z",
-              "EditorCaption": ""
             }
           ]
         }

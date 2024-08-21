@@ -8,3 +8,4 @@ E:\facu\LSI\3er año\Taller de Programacion 2\Practicos\TallerDeProgramacionPrac
 E:\facu\LSI\3er año\Taller de Programacion 2\Practicos\TallerDeProgramacionPracticos\Taller2TrabajosPracticos\Taller2TrabajosPracticos\obj\Debug\Taller2TrabajosPracticos.csproj.CoreCompileInputs.cache
 E:\facu\LSI\3er año\Taller de Programacion 2\Practicos\TallerDeProgramacionPracticos\Taller2TrabajosPracticos\Taller2TrabajosPracticos\obj\Debug\Taller2TrabajosPracticos.exe
 E:\facu\LSI\3er año\Taller de Programacion 2\Practicos\TallerDeProgramacionPracticos\Taller2TrabajosPracticos\Taller2TrabajosPracticos\obj\Debug\Taller2TrabajosPracticos.pdb
+E:\facu\LSI\3er año\Taller de Programacion 2\Practicos\TallerDeProgramacionPracticos\Taller2TrabajosPracticos\Taller2TrabajosPracticos\obj\Debug\Taller2TrabajosPracticos.Pequeño_Formulario.resources

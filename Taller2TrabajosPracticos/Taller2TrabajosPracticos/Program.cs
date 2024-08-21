@@ -16,7 +16,7 @@ namespace Taller2TrabajosPracticos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Practico1());
+            Application.Run(new Pequeño_Formulario());
         }
     }
 }
