@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pequeño_Formulario));
             this.LDni = new System.Windows.Forms.Label();
             this.Lapellido = new System.Windows.Forms.Label();
             this.Lnombre = new System.Windows.Forms.Label();
@@ -36,19 +37,20 @@
             this.Tdni = new System.Windows.Forms.TextBox();
             this.Tapellido = new System.Windows.Forms.TextBox();
             this.Tnombre = new System.Windows.Forms.TextBox();
-            this.TGuardar = new System.Windows.Forms.Button();
-            this.TEliminar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.CheckMastercard = new System.Windows.Forms.CheckBox();
+            this.CheckVisa = new System.Windows.Forms.CheckBox();
+            this.CheckNaranja = new System.Windows.Forms.CheckBox();
+            this.LtarjetasCredito = new System.Windows.Forms.Label();
+            this.Ttelefono = new System.Windows.Forms.TextBox();
+            this.Ltelefono = new System.Windows.Forms.Label();
             this.Varon = new System.Windows.Forms.RadioButton();
             this.Mujer = new System.Windows.Forms.RadioButton();
             this.Titulo = new System.Windows.Forms.Label();
-            this.Ttelefono = new System.Windows.Forms.TextBox();
-            this.Ltelefono = new System.Windows.Forms.Label();
-            this.LtarjetasCredito = new System.Windows.Forms.Label();
-            this.CheckNaranja = new System.Windows.Forms.CheckBox();
-            this.CheckVisa = new System.Windows.Forms.CheckBox();
-            this.CheckMastercard = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.TGuardar = new System.Windows.Forms.Button();
+            this.TEliminar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -128,26 +130,6 @@
             this.Tnombre.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             this.Tnombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Tnombre_KeyPress);
             // 
-            // TGuardar
-            // 
-            this.TGuardar.Location = new System.Drawing.Point(157, 417);
-            this.TGuardar.Name = "TGuardar";
-            this.TGuardar.Size = new System.Drawing.Size(75, 23);
-            this.TGuardar.TabIndex = 8;
-            this.TGuardar.Text = "Guardar";
-            this.TGuardar.UseVisualStyleBackColor = true;
-            this.TGuardar.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // TEliminar
-            // 
-            this.TEliminar.Location = new System.Drawing.Point(333, 417);
-            this.TEliminar.Name = "TEliminar";
-            this.TEliminar.Size = new System.Drawing.Size(75, 23);
-            this.TEliminar.TabIndex = 9;
-            this.TEliminar.Text = "Eliminar";
-            this.TEliminar.UseVisualStyleBackColor = true;
-            this.TEliminar.Click += new System.EventHandler(this.TEliminar_Click);
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -170,82 +152,15 @@
             this.panel1.Size = new System.Drawing.Size(257, 272);
             this.panel1.TabIndex = 10;
             // 
-            // pictureBox1
+            // CheckMastercard
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(404, 50);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(168, 110);
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
-            // Varon
-            // 
-            this.Varon.AutoSize = true;
-            this.Varon.Location = new System.Drawing.Point(416, 191);
-            this.Varon.Name = "Varon";
-            this.Varon.Size = new System.Drawing.Size(53, 17);
-            this.Varon.TabIndex = 12;
-            this.Varon.TabStop = true;
-            this.Varon.Text = "Varon";
-            this.Varon.UseVisualStyleBackColor = true;
-            // 
-            // Mujer
-            // 
-            this.Mujer.AutoSize = true;
-            this.Mujer.Location = new System.Drawing.Point(498, 191);
-            this.Mujer.Name = "Mujer";
-            this.Mujer.Size = new System.Drawing.Size(51, 17);
-            this.Mujer.TabIndex = 13;
-            this.Mujer.TabStop = true;
-            this.Mujer.Text = "Mujer";
-            this.Mujer.UseVisualStyleBackColor = true;
-            // 
-            // Titulo
-            // 
-            this.Titulo.AutoSize = true;
-            this.Titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Titulo.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Titulo.Location = new System.Drawing.Point(219, 9);
-            this.Titulo.Name = "Titulo";
-            this.Titulo.Size = new System.Drawing.Size(178, 29);
-            this.Titulo.TabIndex = 14;
-            this.Titulo.Text = "Nuevo Cliente";
-            this.Titulo.Click += new System.EventHandler(this.label1_Click_1);
-            // 
-            // Ttelefono
-            // 
-            this.Ttelefono.Location = new System.Drawing.Point(118, 166);
-            this.Ttelefono.Name = "Ttelefono";
-            this.Ttelefono.Size = new System.Drawing.Size(122, 20);
-            this.Ttelefono.TabIndex = 11;
-            // 
-            // Ltelefono
-            // 
-            this.Ltelefono.AutoSize = true;
-            this.Ltelefono.Location = new System.Drawing.Point(33, 169);
-            this.Ltelefono.Name = "Ltelefono";
-            this.Ltelefono.Size = new System.Drawing.Size(49, 13);
-            this.Ltelefono.TabIndex = 10;
-            this.Ltelefono.Text = "Telefono";
-            // 
-            // LtarjetasCredito
-            // 
-            this.LtarjetasCredito.AutoSize = true;
-            this.LtarjetasCredito.Location = new System.Drawing.Point(33, 203);
-            this.LtarjetasCredito.Name = "LtarjetasCredito";
-            this.LtarjetasCredito.Size = new System.Drawing.Size(98, 13);
-            this.LtarjetasCredito.TabIndex = 12;
-            this.LtarjetasCredito.Text = "Tarjeta de creditos:";
-            // 
-            // CheckNaranja
-            // 
-            this.CheckNaranja.AutoSize = true;
-            this.CheckNaranja.Location = new System.Drawing.Point(138, 202);
-            this.CheckNaranja.Name = "CheckNaranja";
-            this.CheckNaranja.Size = new System.Drawing.Size(63, 17);
-            this.CheckNaranja.TabIndex = 13;
-            this.CheckNaranja.Text = "Naranja";
-            this.CheckNaranja.UseVisualStyleBackColor = true;
+            this.CheckMastercard.AutoSize = true;
+            this.CheckMastercard.Location = new System.Drawing.Point(138, 245);
+            this.CheckMastercard.Name = "CheckMastercard";
+            this.CheckMastercard.Size = new System.Drawing.Size(79, 17);
+            this.CheckMastercard.TabIndex = 15;
+            this.CheckMastercard.Text = "Mastercard";
+            this.CheckMastercard.UseVisualStyleBackColor = true;
             // 
             // CheckVisa
             // 
@@ -259,21 +174,135 @@
             this.CheckVisa.UseVisualStyleBackColor = false;
             this.CheckVisa.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
-            // CheckMastercard
+            // CheckNaranja
             // 
-            this.CheckMastercard.AutoSize = true;
-            this.CheckMastercard.Location = new System.Drawing.Point(138, 245);
-            this.CheckMastercard.Name = "CheckMastercard";
-            this.CheckMastercard.Size = new System.Drawing.Size(79, 17);
-            this.CheckMastercard.TabIndex = 15;
-            this.CheckMastercard.Text = "Mastercard";
-            this.CheckMastercard.UseVisualStyleBackColor = true;
+            this.CheckNaranja.AutoSize = true;
+            this.CheckNaranja.Location = new System.Drawing.Point(138, 202);
+            this.CheckNaranja.Name = "CheckNaranja";
+            this.CheckNaranja.Size = new System.Drawing.Size(63, 17);
+            this.CheckNaranja.TabIndex = 13;
+            this.CheckNaranja.Text = "Naranja";
+            this.CheckNaranja.UseVisualStyleBackColor = true;
+            this.CheckNaranja.CheckedChanged += new System.EventHandler(this.CheckNaranja_CheckedChanged);
+            // 
+            // LtarjetasCredito
+            // 
+            this.LtarjetasCredito.AutoSize = true;
+            this.LtarjetasCredito.Location = new System.Drawing.Point(33, 203);
+            this.LtarjetasCredito.Name = "LtarjetasCredito";
+            this.LtarjetasCredito.Size = new System.Drawing.Size(98, 13);
+            this.LtarjetasCredito.TabIndex = 12;
+            this.LtarjetasCredito.Text = "Tarjeta de creditos:";
+            // 
+            // Ttelefono
+            // 
+            this.Ttelefono.Location = new System.Drawing.Point(118, 166);
+            this.Ttelefono.Name = "Ttelefono";
+            this.Ttelefono.Size = new System.Drawing.Size(122, 20);
+            this.Ttelefono.TabIndex = 11;
+            this.Ttelefono.TextChanged += new System.EventHandler(this.Ttelefono_TextChanged);
+            this.Ttelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Ttelefono_KeyPress);
+            // 
+            // Ltelefono
+            // 
+            this.Ltelefono.AutoSize = true;
+            this.Ltelefono.Location = new System.Drawing.Point(33, 169);
+            this.Ltelefono.Name = "Ltelefono";
+            this.Ltelefono.Size = new System.Drawing.Size(49, 13);
+            this.Ltelefono.TabIndex = 10;
+            this.Ltelefono.Text = "Telefono";
+            // 
+            // Varon
+            // 
+            this.Varon.AutoSize = true;
+            this.Varon.Location = new System.Drawing.Point(416, 191);
+            this.Varon.Name = "Varon";
+            this.Varon.Size = new System.Drawing.Size(53, 17);
+            this.Varon.TabIndex = 12;
+            this.Varon.TabStop = true;
+            this.Varon.Text = "Varon";
+            this.Varon.UseVisualStyleBackColor = true;
+            this.Varon.CheckedChanged += new System.EventHandler(this.Varon_CheckedChanged);
+            // 
+            // Mujer
+            // 
+            this.Mujer.AutoSize = true;
+            this.Mujer.Location = new System.Drawing.Point(498, 191);
+            this.Mujer.Name = "Mujer";
+            this.Mujer.Size = new System.Drawing.Size(51, 17);
+            this.Mujer.TabIndex = 13;
+            this.Mujer.TabStop = true;
+            this.Mujer.Text = "Mujer";
+            this.Mujer.UseVisualStyleBackColor = true;
+            this.Mujer.CheckedChanged += new System.EventHandler(this.Mujer_CheckedChanged);
+            // 
+            // Titulo
+            // 
+            this.Titulo.AutoSize = true;
+            this.Titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Titulo.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.Titulo.Location = new System.Drawing.Point(219, 9);
+            this.Titulo.Name = "Titulo";
+            this.Titulo.Size = new System.Drawing.Size(178, 29);
+            this.Titulo.TabIndex = 14;
+            this.Titulo.Text = "Nuevo Cliente";
+            this.Titulo.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // button1
+            // 
+            this.button1.Image = global::Taller2TrabajosPracticos.Properties.Resources.salir_nuevo;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(440, 402);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(132, 57);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Salir";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(404, 50);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(168, 135);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
+            // TGuardar
+            // 
+            this.TGuardar.Image = ((System.Drawing.Image)(resources.GetObject("TGuardar.Image")));
+            this.TGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.TGuardar.Location = new System.Drawing.Point(91, 402);
+            this.TGuardar.Name = "TGuardar";
+            this.TGuardar.Size = new System.Drawing.Size(132, 57);
+            this.TGuardar.TabIndex = 8;
+            this.TGuardar.Text = "Guardar";
+            this.TGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.TGuardar.UseVisualStyleBackColor = true;
+            this.TGuardar.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // TEliminar
+            // 
+            this.TEliminar.Image = ((System.Drawing.Image)(resources.GetObject("TEliminar.Image")));
+            this.TEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.TEliminar.Location = new System.Drawing.Point(265, 402);
+            this.TEliminar.Name = "TEliminar";
+            this.TEliminar.Size = new System.Drawing.Size(132, 57);
+            this.TEliminar.TabIndex = 9;
+            this.TEliminar.Text = "Eliminar";
+            this.TEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.TEliminar.UseVisualStyleBackColor = true;
+            this.TEliminar.Click += new System.EventHandler(this.TEliminar_Click);
             // 
             // Pequeño_Formulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(638, 493);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Titulo);
             this.Controls.Add(this.Mujer);
             this.Controls.Add(this.Varon);
@@ -315,5 +344,6 @@
         private System.Windows.Forms.CheckBox CheckVisa;
         private System.Windows.Forms.CheckBox CheckNaranja;
         private System.Windows.Forms.Label LtarjetasCredito;
+        private System.Windows.Forms.Button button1;
     }
 }

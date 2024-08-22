@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Taller2TrabajosPracticos.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -58,6 +61,12 @@
     <Compile Include="Pequeño Formulario.Designer.cs">
       <DependentUpon>Pequeño Formulario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pequeño Sistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pequeño Sistema.Designer.cs">
+      <DependentUpon>Pequeño Sistema.cs</DependentUpon>
+    </Compile>
     <Compile Include="Practico1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,22 +78,26 @@
     <EmbeddedResource Include="Pequeño Formulario.resx">
       <DependentUpon>Pequeño Formulario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pequeño Sistema.resx">
+      <DependentUpon>Pequeño Sistema.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Practico1.resx">
       <DependentUpon>Practico1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -95,7 +108,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="imagenes\" />
+    <None Include="imagenes\Eliminar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\Guardar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\Hombre.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\Mujer.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\salir_nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\Usuario.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

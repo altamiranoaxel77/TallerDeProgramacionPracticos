@@ -40,10 +40,10 @@ namespace Taller2TrabajosPracticos
         private void button1_Click(object sender, EventArgs e)
         {
             DialogResult ask;
+            bool generoSeleccionado = Varon.Checked || Mujer.Checked;
+            bool tarketaSeleccionada = CheckMastercard.Checked || CheckNaranja.Checked || CheckVisa.Checked;
 
-            butt
-
-            if (string.IsNullOrWhiteSpace(Tnombre.Text) || string.IsNullOrWhiteSpace(Tapellido.Text) || string.IsNullOrWhiteSpace(Tdni.Text))
+            if (string.IsNullOrWhiteSpace(Tnombre.Text) || string.IsNullOrWhiteSpace(Tapellido.Text) || string.IsNullOrWhiteSpace(Tdni.Text) || string.IsNullOrWhiteSpace(Ttelefono.Text)|| !generoSeleccionado || !tarketaSeleccionada)
             {
                 MessageBox.Show("Debe completar todos los campos", "Erro",MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Tnombre.Focus();
@@ -116,6 +116,11 @@ namespace Taller2TrabajosPracticos
                 Tdni.Clear();
                 Tnombre.Clear();
                 Tapellido.Clear();
+                Ttelefono.Clear();
+                CheckNaranja.Checked = false;
+                CheckVisa.Checked = false;
+                CheckMastercard.Checked = false;
+
                 lmodificar.Text = "modificar";
             }
         }
@@ -133,6 +138,47 @@ namespace Taller2TrabajosPracticos
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Ttelefono_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ttelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void CheckNaranja_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Varon_CheckedChanged(object sender, EventArgs e)
+        {
+            if (Varon.Checked)
+            {
+                pictureBox1.Image = Properties.Resources.Hombre;
+
+            }
+        }
+
+        private void Mujer_CheckedChanged(object sender, EventArgs e)
+        {
+            if (Mujer.Checked)
+            {
+                pictureBox1.Image = Properties.Resources.Mujer;
+
+            }
         }
     }
 }
